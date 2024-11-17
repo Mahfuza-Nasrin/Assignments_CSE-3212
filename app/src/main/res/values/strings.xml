@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Assignments</string>
+
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+        <item>Pluto</item>
+        <item>Exoplanets</item>
+    </string-array>
+
+    <string-array name="planets_array_subtitle">
+        <item>Mercury is the closest planet to the Sun and has the shortest orbit of all the planets in our solar system. It has extreme temperature variations due to its thin atmosphere.</item>
+        <item>Venus is similar in size to Earth but has a thick, toxic atmosphere made mostly of carbon dioxide. It has the hottest surface temperature of any planet in the solar system.</item>
+        <item>Earth is the only known planet to support life. It has a diverse climate, oceans, and a protective atmosphere that sustains a variety of ecosystems.</item>
+        <item>Mars, also known as the Red Planet, has a cold, desert-like environment with evidence of ancient water flows. It is a target for future human exploration.</item>
+        <item>Jupiter is the largest planet in our solar system. It is a gas giant with a Great Red Spot, a massive storm, and numerous moons, including Ganymede, the largest moon in the solar system.</item>
+        <item>Saturn is a gas giant known for its stunning rings made of ice and rock particles. It has dozens of moons, including Titan, which has a thick, nitrogen-rich atmosphere.</item>
+        <item>Uranus is an ice giant with a blue-green hue due to methane in its atmosphere. It rotates on its side and has a set of faint rings and many moons.</item>
+        <item>Neptune is the farthest planet from the Sun. It has a deep blue color due to methane and is known for its intense winds and storm systems, including the Great Dark Spot.</item>
+        <item>Pluto is a dwarf planet in the Kuiper Belt. Once considered the ninth planet, it was reclassified as a dwarf planet in 2006. It has a thin atmosphere and five known moons.</item>
+        <item>Exoplanets are planets that orbit stars outside our solar system. Thousands have been discovered, with some located in the "habitable zone" where conditions may support liquid water.</item>
+    </string-array>
+
+
+</resources>
