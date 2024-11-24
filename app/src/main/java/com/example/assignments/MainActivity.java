@@ -13,7 +13,8 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button expandableListview;
+    Button expandableListview, recycler;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         expandableListview = findViewById(R.id.btn_expandable_listview);
+        recycler = findViewById(R.id.recyclerViewActivity);
 
 
         expandableListview.setOnClickListener(new View.OnClickListener() {
@@ -34,6 +36,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        recycler.setOnClickListener(v -> startActivity(new Intent(getApplicationContext(), RecyclerViewActivity.class)));
+
 
     }
 }
